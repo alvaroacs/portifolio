@@ -1,0 +1,61 @@
+body{
+    padding:0;
+    margin:0;
+}
+
+:root{
+
+    --cor_primaria:#222831;
+    --cor_segundaria:#f2f7ae;
+    --cor_terciaria:#00ADB5;
+    --cor_quarternaria:#EEEEEE;
+}
+
+header{
+    background-color: var(--cor_primaria);
+    padding:1.25rem;
+    margin: 0,10%;
+}
+.header_a{
+
+    text-decoration: none;
+    color:var(--cor_quarternaria);
+    margin-right: 10%;
+}
+
+.header_a:hover{
+    color: var(--cor_segundaria);
+}
+
+
+main{
+
+    color: var(--cor_primaria);
+    
+    display: flex;
+    width: 50%;
+    height: 50%;
+
+}
+
+section{
+
+    width: 40%;
+    height: 15.625rem;
+    border:0.62rem solid var(--cor_primaria);
+    
+  }
+
+
+  img{
+        max-width: 50%;
+        max-height: 15.625rem;
+        width: auto;
+        height: auto;
+        background-color: var(--cor_primaria);
+      }
+      section:hover{
+        border-color: var(--cor_segundaria);
+        background-color: var(--cor_segundaria);
+      }
+  
